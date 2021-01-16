@@ -11,6 +11,8 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string"}
+      - { label: "Synopsis", name: "synopsis", widget: "string" }
+      - { label: "Created Date", name: "createddate", widget: "datetime" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - { label: "Cover", name: "cover", widget: "image", required: false}
